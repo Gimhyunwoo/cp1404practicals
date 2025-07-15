@@ -77,3 +77,31 @@ print_grid(3,7)
 # Key Take Out
 # for 변수 in 반복 가능한 객체:
 #   반복할 코드
+
+# 3rd Video
+
+# def get_limits():
+#     low = int(input("Low: "))
+#     high = int(input("High: "))
+#     return low, high
+#
+# def run_test():
+#     low, high = get_limits()
+#     print(low,high)
+#     print(type(low))
+
+def main ():
+    print("Menu: ")
+    choice = input(">").upper()
+    while choice != "Q":
+        if choice == "p":
+            pass
+        elif choice == "G":
+            pass
+        elif choice == "S":
+            pass
+        else:
+            print("Invalid Input")
+        print("Menu: ")
+        choice = input(">").upper()
+    print("Farewell")

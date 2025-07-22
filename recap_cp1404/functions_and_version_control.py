@@ -72,7 +72,7 @@ print_grid(3, 7)
 #     for i in range(number_of_rows):
 #         print("*" * number_of_columns)
 
-print_grid(3,7)
+# print_grid(3,7)
 
 # Key Take Out
 # for 변수 in 반복 가능한 객체:
@@ -90,18 +90,26 @@ print_grid(3,7)
 #     print(low,high)
 #     print(type(low))
 
-def main ():
-    print("Menu: ")
-    choice = input(">").upper()
-    while choice != "Q":
-        if choice == "p":
-            pass
-        elif choice == "G":
-            pass
-        elif choice == "S":
-            pass
-        else:
-            print("Invalid Input")
-        print("Menu: ")
-        choice = input(">").upper()
-    print("Farewell")
+# def main ():
+#     print("Menu: ")
+#     choice = input(">").upper()
+#     while choice != "Q":
+#         if choice == "p":
+#             pass
+#         elif choice == "G":
+#             pass
+#         elif choice == "S":
+#             pass
+#         else:
+#             print("Invalid Input")
+#         print("Menu: ")
+#         choice = input(">").upper()
+#     print("Farewell")
+
+# def print_line(length=20, pen ='*'):
+#     print(pen*length)
+#
+# print_line(10,'!')
+# print_line(5)
+# print_line()
+

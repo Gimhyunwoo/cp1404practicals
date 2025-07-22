@@ -1,0 +1,31 @@
+BoxLayout:
+    orientation: 'vertical'
+    padding: 10
+    spacing: 10
+
+    BoxLayout:
+        orientation: 'horizontal'
+        spacing: 10
+
+        TextInput:
+            id: input_miles
+            text: ''
+            multiline: False
+            on_text: app.handle_convert()
+
+        Button:
+            text: 'Up'
+            on_press: app.handle_increment(1)
+
+        Button:
+            text: 'Down'
+            on_press: app.handle_increment(-1)
+
+    Label:
+        text: app.output_text
+        color: (1, 1, 0, 1)
+
+    # (선택 사항) 변환 버튼
+    # Button:
+    #     text: 'Convert'
+    #     on_press: app.handle_convert()
